@@ -10,7 +10,6 @@ Reduce employee stress-related absenteeism and presenteeism by 15% within the fi
 
 Used face-recognition library and OpenCV to **_detect faces_** (from live webcam stream) and allow access into the cells. Simple **_authorisation check_** to further access into your particular cell (unless you are an administrator). Deep convolutional neural network to **_detect emotions_** (from videos) and display a label along with a pie chart containing the result. 
 
-This project is an entry in Microsoft Engage 2022. 
 
 ## Tools and Libraries used:
 - Python - face_recognition - https://pypi.org/project/face-recognition/
