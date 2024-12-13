@@ -6,6 +6,15 @@ Impact Of the Project
 
 Reduce employee stress-related absenteeism and presenteeism by 15% within the first year of implementation by enabling proactive interventions based on real-time stress data. This will contribute to a more engaged, productive, and healthier workforce.
 
+
+Employee Face Emotion-based feedback collection Employee Meeting Participation Detection (Absenteeism detection) We seek to identify and boost the morale of passive employees by collecting information in an unobtrusive manner. We also seek to simplify the attrition process by establishing patterns for employee behavior and activeness. We include 1. Employee-Emotion Based Attrition Prediction 2. Passive Employee Engagement identification using Audio Processing
+
+A Solution for ALL that revolutionizes the Corporate Ecosystem. We aim at overcoming the pitfalls of the human errors prevalent among attrition systems all over the world. We propose to build a fully automated, AI-based system overcoming the challenges in the present systems.
+
+Emotion to Attrition Connection - The concept behind the system is to actively monitor the employee’s emotion levels during login time in the morning. The emotion can then be analyzed to provide further insights regarding his morale. The desired result is achieved using a combination of Image Processing Techniques and Deep Learning Interfaces. The system achieves high accuracy within the given time. Job Satisfaction - can be understood if the employee has a smile for the day's login!
+
+The Audio Processing Suite: We have also built a system that is able to accurately detect and transcript dialogues from meetings using Audio Processing and AI Techniques. The system is able to associate voices with individuals with relative ease, The idea is to track all the employees' engagement in meetings over a period of time and to establish a clear pattern of disengagement. This information can be further used by the organization as appropriate.
+
 # Facial Recognition and Facial Emotion Detection using Flask
 
 Used face-recognition library and OpenCV to **_detect faces_** (from live webcam stream) and allow access into the cells. Simple **_authorisation check_** to further access into your particular cell (unless you are an administrator). Deep convolutional neural network to **_detect emotions_** (from videos) and display a label along with a pie chart containing the result. 
