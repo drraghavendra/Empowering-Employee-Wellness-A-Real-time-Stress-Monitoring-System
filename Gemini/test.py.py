@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key=os.environ["AIzaSyCY0oVfnE0mjPmHKCfveI7tcaICd4eCEGA"])
+genai.configure(api_key=os.environ["["AIzaSyCY0oVfnE0mjPmHKCfveI7tcaICd4eCEGA"])
 
 def upload_to_gemini(path, mime_type=None):
   """Uploads the given file to Gemini.
@@ -38,13 +38,13 @@ chat_session = model.start_chat(
       "role": "user",
       "parts": [
         files[0],
-        "Tell me what is the emotion of the person in the uploaded image.",
+        "suggest me the emotions of the person  in the below photo",
       ],
     },
     {
       "role": "model",
       "parts": [
-        "The person in the image is displaying a very happy and joyful emotion. Her wide, toothy smile, coupled with crinkled eyes, strongly suggests genuine happiness and possibly amusement.",
+        "Certainly! Based on the image, the person is exhibiting strong emotions of **joy and happiness**. Her wide smile, crinkled eyes, and the slight upward tilt of her head all contribute to this impression. She appears to be very pleased and genuinely enjoying the moment.",
       ],
     },
   ]
@@ -53,3 +53,4 @@ chat_session = model.start_chat(
 response = chat_session.send_message("INSERT_INPUT_HERE")
 
 print(response.text)
+
