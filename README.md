@@ -19,6 +19,11 @@ The Audio Processing Suite: We have also built a system that is able to accurate
 
 Used face-recognition library and OpenCV to **_detect faces_** (from live webcam stream) and allow access into the cells. Simple **_authorisation check_** to further access into your particular cell (unless you are an administrator). Deep convolutional neural network to **_detect emotions_** (from videos) and display a label along with a pie chart containing the result. 
 
+# Data Set and Code links
+
+https://drive.google.com/drive/folders/1aiZCNIXJ0uodEEc6NcbFKWd1bxosrBRT?usp=sharing
+
+
 
 ## Tools and Libraries used:
 - Python - face_recognition - https://pypi.org/project/face-recognition/
@@ -59,9 +64,6 @@ https://drive.google.com/file/d/1y_p29exw_yInqN4lpibHMWQi8DL9cpkY/view?usp=shari
 I have also uploaded a video explaining the workflow of my website at:  
 https://drive.google.com/file/d/1UvPXMw64tPMNHWdRshuwQPVvUAJuqse1/view?usp=sharing
 
-# Data Set and Code links
-
-https://drive.google.com/drive/folders/1aiZCNIXJ0uodEEc6NcbFKWd1bxosrBRT?usp=sharing
 
 
 ## Installation:
